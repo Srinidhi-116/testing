@@ -1,0 +1,30 @@
+{
+  "name": "SpeechMentor",
+  "version": "1.0.0",
+  "description": "A web application that helps public speakers improve their skills by generating transcripts from speech, analyzing grammar correctness and sentiment, and providing detailed feedback.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "axios": "^0.21.1",
+    "some-speech-recognition-library": "^1.0.0",
+    "some-grammar-check-library": "^1.0.0",
+    "some-sentiment-analysis-library": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "speech",
+    "public speaking",
+    "transcripts",
+    "analysis",
+    "feedback"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
